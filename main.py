@@ -11,13 +11,13 @@ root.title("Minesweeper Game")
 root.resizable(False, False)
 
 top_frame = Frame(
-    root, bg="pink", width=settings.WINDOW_WIDTH, height=settings.WINDOW_HEIGHT / 5
+    root, bg="black", width=settings.WINDOW_WIDTH, height=settings.WINDOW_HEIGHT / 5
 )
 top_frame.place(x=0, y=0)
 
 left_frame = Frame(
     root,
-    bg="blue",
+    bg="black",
     width=settings.WINDOW_WIDTH / 5,
     height=settings.WINDOW_HEIGHT - (settings.WINDOW_HEIGHT / 5),
 )
@@ -25,7 +25,7 @@ left_frame.place(x=0, y=settings.WINDOW_HEIGHT / 5)
 
 center_frame = Frame(
     root,
-    bg="green",
+    bg="black",
     width=settings.WINDOW_WIDTH * 0.8,
     height=settings.WINDOW_HEIGHT * 0.8,
 )
